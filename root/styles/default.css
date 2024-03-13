@@ -1,11 +1,50 @@
 :root {
-    --primary-color: none;
-    --secondary-color: none;
-    --tertiary-color: none;
-    --quaternary-color: none;
-    --quinary-color: none;
+    --primary-color: #fbfbf2;
+    --secondary-color: #f7c9e4d6;
+    --tertiary-color: #d296d2;
+    --quaternary-color: #9575bc;
+    --quinary-color: #67649f;
+    --icon-width: 2.4rem;
+    font-size: 10px;
 }
 
 * {
     font-family: "Ubuntu", sans-serif;
+}
+
+.icons {
+    display: flex;
+    width: var(--icon-width);
+    height: var(--icon-width);
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    border-radius: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+.icons:hover {
+    background-color: var(--secondary-color);
+}
+
+.search-box {
+    outline: none;
+    border: none;
+    background: none;
+    color: var(--quaternary-color);
+}
+
+.search-box::placeholder {
+    color: var(--quaternary-color);
+}
+
+::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: var(--tertiary-color);
 }
