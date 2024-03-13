@@ -1,5 +1,9 @@
 :root {
-    --var-temp: none;
+    --primary-color: none;
+    --secondary-color: none;
+    --tertiary-color: none;
+    --quaternary-color: none;
+    --quinary-color: none;
 }
 
 * {
