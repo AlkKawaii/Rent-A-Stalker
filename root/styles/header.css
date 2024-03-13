@@ -1,0 +1,13 @@
+@import url(default.css);
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 1rem;
+    background-color: var(--primary-color);
+    width: 100vw;
+}
+
+.header__button-group {
+    display: flex;
+}
