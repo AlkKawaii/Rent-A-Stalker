@@ -1,3 +1,7 @@
+:root {
+    --var-temp: none;
+}
+
 * {
     font-family: "Ubuntu", sans-serif;
 }
