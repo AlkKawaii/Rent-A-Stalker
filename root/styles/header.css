@@ -2,9 +2,11 @@
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0.7rem 1rem;
     background-color: var(--primary-color);
     width: 100dvw;
+    height: 10dvh;
     position: fixed;
     top: 0;
     box-shadow: 0 0.065rem 2rem 0.1rem rgba(66, 66, 66, 0.5);
@@ -28,15 +30,16 @@ header {
 
 #header__search-bar {
     max-width: 25dvw;
+    max-height: 5dvh;
     justify-content: space-between;
     overflow: hidden;
-    padding: 0.1rem 0.5rem;
+    padding: 1.6px 8px;
     border: 0.1rem solid #000;
     border-radius: 100rem;
 }
 
 #header__search-bar > input {
-    width: 50vmin;
+    width: 75vmin;
 }
 
 @media (max-width: 400px) {

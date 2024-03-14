@@ -1,0 +1,28 @@
+#main-cta {
+    display: flex;
+    flex-flow: nowrap row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12dvh;
+}
+
+#logo-centro {
+    width: 65vh;
+    position: relative;
+}
+
+.cta__buttons {
+    position: absolute;
+}
+
+#cta__button1 {
+    left: 25vw;
+}
+
+#cta__button2 {
+    right: 25vw;
+}
+
+#cta__button3 {
+    bottom: 15vh;
+}

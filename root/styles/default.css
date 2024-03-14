@@ -4,7 +4,7 @@
     --tertiary-color: #d296d2;
     --quaternary-color: #9575bc;
     --quinary-color: #67649f;
-    --icon-button-width: 2.1rem;
+    --icon-button-width: 2.5vmax;
     --icon-width: 2rem;
 }
 
@@ -18,7 +18,7 @@ a {
 
 .button-icons {
     display: flex;
-    width: var(--icon-button-width);
+    min-width: var(--icon-button-width);
     height: var(--icon-button-width);
     align-items: center;
     justify-content: center;
@@ -75,5 +75,6 @@ body {
 
 .cta__buttons:hover {
     background-color: var(--quaternary-color);
-    transform: translateY(-1rem) rotateZ(360deg) scale(1.2);
+    box-shadow: 0 0.2rem 0.3rem 0.2rem rgba(251, 251, 242, 0.25);
+    transform: translateY(-1rem) rotateZ(360deg) scale(1.3);
 }
