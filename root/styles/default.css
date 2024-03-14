@@ -10,6 +10,7 @@
 
 * {
     font-family: "Ubuntu", sans-serif;
+    color: var(--primary-color);
 }
 
 .button-icons {
@@ -31,6 +32,10 @@
 
 .icons {
     width: var(--icon-width);
+}
+
+span {
+    color: var(--quinary-color);
 }
 
 .search-box {
@@ -62,7 +67,6 @@ body {
     border-radius: 100px;
     background-color: var(--quinary-color);
     transition: all 0.5s ease-in-out;
-    color: var(--primary-color);
     cursor: pointer;
     font-weight: 600;
     font-size: 0.8rem;
