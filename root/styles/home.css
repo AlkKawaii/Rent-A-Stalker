@@ -11,6 +11,7 @@
 
 #logo-centro {
     width: 50vh;
+    fill: var(--primary-color);
 }
 
 #main-cta > div {
