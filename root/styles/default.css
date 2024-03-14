@@ -55,16 +55,15 @@ a {
 body {
     max-width: 100dvw;
     max-height: 100dvh;
-    background-color: var(--tertiary-color);
+    background-color: var(--secondary-color);
 }
 
 .cta__buttons {
     border: none;
-    background: none;
     padding: 0.5rem 0.6rem;
     border-radius: 100px;
     background-color: var(--quinary-color);
-    transition: all 0.7s ease-in-out;
+    transition: all 0.5s ease-in-out;
     color: var(--primary-color);
     cursor: pointer;
     font-weight: 600;
@@ -76,5 +75,5 @@ body {
 .cta__buttons:hover {
     background-color: var(--quaternary-color);
     box-shadow: 0 0.2rem 0.3rem 0.2rem rgba(251, 251, 242, 0.25);
-    transform: translateY(-1rem) rotateZ(360deg) scale(1.3);
+    transform: translateY(-1rem) scale(1.3);
 }
