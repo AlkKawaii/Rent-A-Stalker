@@ -35,6 +35,7 @@
             rel="stylesheet"
             href="styles/header.css"
         />
+        <link rel="stylesheet" href="styles/home.css">
         <title>Rent A Stalker!</title>
     </head>
     <body>
@@ -43,7 +44,7 @@
                 id="header__left-buttons"
                 class="header__button-group"
             >
-                <button class="button-icons">
+                <button id="header__menu-button" class="button-icons">
                     <span
                         class="material-symbols-outlined"
                         class="icons"
@@ -109,7 +110,15 @@
                 </button>
             </div>
         </header>
-        <main></main>
+        <main>
+            <section id="main-cta">
+                <img
+                    src="assets/svg/logo.svg"
+                    alt="logo" id="logo-centro"
+                />
+                <button id="cta__button1" class="cta__buttons">About Us</button><button id="cta__button2" class="cta__buttons">Your Account</button><button id="cta__button3" class="cta__buttons">Rent A Stalker, Now!</button>
+            </section>
+        </main>
         <footer></footer>
     </body>
 </html>

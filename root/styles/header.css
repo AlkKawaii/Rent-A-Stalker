@@ -17,6 +17,15 @@ header {
     gap: 0.5dvw;
 }
 
+#header__menu-button {
+    transition: all 0.5s;
+}
+
+#header__menu-button:hover,
+#header__button-menu:active {
+    transform: rotateZ(90deg);
+}
+
 #header__search-bar {
     max-width: 25dvw;
     justify-content: space-between;
@@ -35,4 +44,3 @@ header {
         display: none;
     }
 }
-

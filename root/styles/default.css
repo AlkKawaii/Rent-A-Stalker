@@ -53,7 +53,27 @@ a {
 }
 
 body {
-    width: 100dvw;
-    height: 100dvh;
+    max-width: 100dvw;
+    max-height: 100dvh;
     background-color: var(--tertiary-color);
+}
+
+.cta__buttons {
+    border: none;
+    background: none;
+    padding: 0.5rem 0.6rem;
+    border-radius: 100px;
+    background-color: var(--quinary-color);
+    transition: all 0.7s ease-in-out;
+    color: var(--primary-color);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.8rem;
+    width: 9rem;
+    aspect-ratio: 3/1;
+}
+
+.cta__buttons:hover {
+    background-color: var(--quaternary-color);
+    transform: translateY(-1rem) rotateZ(360deg) scale(1.2);
 }
