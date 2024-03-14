@@ -3,8 +3,10 @@
     flex-flow: nowrap column;
     align-items: center;
     justify-content: center;
+    align-content: center;
     margin-top: 15dvh;
     gap: 5vh;
+    width: 100%;
 }
 
 #logo-centro {
@@ -13,5 +15,17 @@
 
 #main-cta > div {
     display: flex;
+    justify-items: center;
+    align-items: center;
     gap: 3vw;
+}
+
+@media (max-width: 600px) {
+    #main-cta > div {
+        flex-flow: column;
+        gap: 4.5vh;
+    }
+    .cta__buttons {
+        width: 10rem;
+    }
 }
