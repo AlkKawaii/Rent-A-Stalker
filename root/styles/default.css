@@ -12,10 +12,6 @@
     font-family: "Ubuntu", sans-serif;
 }
 
-a {
-    text-decoration: none;
-}
-
 .button-icons {
     display: flex;
     min-width: var(--icon-button-width);
