@@ -16,7 +16,7 @@ a {
     text-decoration: none;
 }
 
-.header__button-icons {
+.button-icons {
     display: flex;
     width: var(--icon-button-width);
     height: var(--icon-button-width);
@@ -25,10 +25,11 @@ a {
     background: none;
     border: none;
     border-radius: 100%;
+    cursor: pointer;
     transition: all 0.5s ease-in-out;
 }
 
-.header__button-icons:hover {
+.button-icons:hover {
     background-color: var(--secondary-color);
 }
 
@@ -52,7 +53,7 @@ a {
 }
 
 body {
-    max-width: 100dvw;
-    max-height: 100dvh;
+    width: 100dvw;
+    height: 100dvh;
     background-color: var(--tertiary-color);
 }
