@@ -56,9 +56,8 @@ span {
 body {
     max-width: 100dvw;
     max-height: 100dvh;
-    /* width: 100%;
-    background-color: var(--secondary-color); */
     background-image: url(../assets/img/sScwdFB-pastel-wallpapers.jpg);
+    background-repeat: round;
 }
 
 .cta__buttons {
