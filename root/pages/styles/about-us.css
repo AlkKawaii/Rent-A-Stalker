@@ -30,7 +30,7 @@
     margin: 0.3dvh;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
     .about-us__card-container {
         min-width: 90dvw;
         height: 50dvw;
