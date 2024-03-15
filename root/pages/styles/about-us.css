@@ -1,12 +1,14 @@
 #main__container {
     display: flex;
     flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #about-us__cards-container {
     display: flex;
     flex-flow: row wrap;
-    gap: 5rem;
+    gap: 2.5rem;
 }
 
 #about-us__title {
@@ -18,5 +20,8 @@
 }
 
 .about-us__card-container {
-    
+    perspective: 1000px;
+    width: 26.5rem;
+    height: 13rem;
+    hyphens: auto;
 }
