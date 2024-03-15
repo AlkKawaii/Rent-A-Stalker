@@ -27,7 +27,7 @@
     perspective: 1000px;
     min-width: 30.5dvw;
     height: 16dvw;
-    margin: 0.3dvh;
+    margin-bottom: 1dvh;
 }
 
 @media (max-width: 800px) {
