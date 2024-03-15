@@ -57,7 +57,7 @@ body {
     max-width: 100dvw;
     max-height: 100dvh;
     background-image: url(../assets/img/sScwdFB-pastel-wallpapers.jpg);
-    background-repeat: round;
+    background-repeat: no-repeat;
 }
 
 .cta__buttons {
