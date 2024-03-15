@@ -33,7 +33,10 @@
 @media (max-width: 800px) {
     .about-us__card-container {
         min-width: 90dvw;
-        height: 50dvw;
+        height: 65dvw;
+    }
+    #about-us__title {
+        font-size: 7dvh;
     }
 }
 
@@ -45,6 +48,7 @@
     position: relative;
     background-color: var(--primary-color);
     border-radius: 10px;
+    z-index: 0;
 }
 
 .about-us__card-inner p,
