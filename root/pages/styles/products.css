@@ -1,0 +1,19 @@
+@import url(../../styles/default.css);
+
+#main__container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5dvh;
+}
+
+#products__title {
+    margin-top: 13.5dvh;
+    padding: 0.5em;
+    font-size: 3dvw;
+    width: fit-content;
+    background-color: var(--quaternary-color);
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px 5px rgba(50, 50, 50, 0.25);
+}
