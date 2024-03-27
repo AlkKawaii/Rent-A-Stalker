@@ -57,7 +57,7 @@ body {
     max-width: 100dvw;
     max-height: 100dvh;
     background: url(../assets/img/sScwdFB-pastel-wallpapers.jpg) fixed;
-    animation: open-circle 2.5s ease-in-out;
+    animation: open-circle 2s linear(0 0%, 0.83 100.68%, 1.04 25.53%);
 }
 
 @keyframes open-circle {
